@@ -24,8 +24,7 @@ An outfile maybe specified after hex grid image and the outfile, without this th
 The command a interpreters a hex grid where the grid has been coloured grey (![#C3C3C3](https://via.placeholder.com/15/c3c3c3/000000?text=+) #C3C3C3, (195,195,195))
 hexes and returns a list in the outfile of cube coords of the grey hexes.
 <br>Examples:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp;--interpret 16 hex_grid.png cube_coords.txt
+
 ```
 python dhg -i 8 hex_grid.png
 python dhg --interpret 16 hex_grid.png cube_coords.txt
